@@ -335,7 +335,6 @@ $vargraph: (
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    width: 100%;
     margin: 4.3rem 0;
     div.innerFlex {
       background: #fefeff;
@@ -346,6 +345,7 @@ $vargraph: (
         0px 8.90772px 7.12618px rgba(41, 72, 152, 0.0196296),
         0px 2.02448px 3.44162px rgba(41, 72, 152, 0.012037);
       border-radius: 1rem;
+      padding: 1rem;
       padding-bottom: 2rem;
       margin: 0 1.3rem 3.4rem;
       .icon {
