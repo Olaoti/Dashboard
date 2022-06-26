@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tomorrow&display=swap');
+$clp:#623CE7;
+$cln1:#343434;
+$cln3:#989898;
+$clg:#A1A4AC;
+$c1:#A9B8CD;
+$c2:#6F767E;
+$c5:#1C1F3E;
+$cb:black;
+$cb3:rgba(0, 0, 0, 0.3);
+$cb5:rgba(0, 0, 0, 0.5);
+$f20: 2rem;
+$f14: 1.4rem;
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-800{
+    font-weight: 800;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#E5E5E5;
+}
+.app{
+    .bodyy{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr 5.5fr 4.8fr;  
+    }
+}
